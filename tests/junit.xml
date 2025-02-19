@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.740" timestamp="2025-01-27T11:03:33.257736+03:00" hostname="MSI"><testcase classname="tests.test_opera" name="test_google_title" time="0.632"><error message="failed on setup with &quot;AttributeError: 'Playwright' object has no attribute 'opera'&quot;">@pytest.fixture(scope="function")
+    def browser():
+        with sync_playwright() as p:
+            # Запуск браузера Opera
+&gt;           browser = p.opera.launch(headless=False)  # Установите headless=True, если хотите запустить в фоновом режиме
+E           AttributeError: 'Playwright' object has no attribute 'opera'
+
+test_opera.py:15: AttributeError</error></testcase></testsuite></testsuites>

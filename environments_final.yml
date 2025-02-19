@@ -1,0 +1,12 @@
+name: test_final
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytest
+  - selenium
+  - pip
+  - allure-pytest
+  - flake8
+  - pytest-playwright
+  - requests-mock-1.12.1

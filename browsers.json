@@ -1,0 +1,10 @@
+{ "chrome": {
+    "default": "latest",
+  "versions": {
+    "latest": {
+      "image": ["C:/Users/tanai/Downloads/chromedriver-win64/chromedriver.exe"]
+      }
+    }
+  }
+}
+

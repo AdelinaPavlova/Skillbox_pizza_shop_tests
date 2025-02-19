@@ -1,0 +1,11 @@
+cd tests; allure serve ./allure_results
+.\selenoid_windows_amd64 --conf C:\Users\tanai\PycharmProjects\python-autotests-basic\browsers.json
+conda env update --f environments_final.yml
+conda activate test_final
+conda info --envs
+conda remove -n ada_1 --all
+conda env create -f environments_final.yml
+conda deactivate
+conda activate test_final
+allure serve ./allure_results
+make -d run_tests
