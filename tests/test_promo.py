@@ -1,10 +1,10 @@
 import logging.config
 import time
 import allure
-from final.pages.account_page import AccountPage
-from final.pages.cart_page import CartPage, CookieHandler
-from final.pages.main_page import MainPage
-from final.pages.order_page import OrderPage
+from pages.account_page import AccountPage
+from pages.cart_page import CartPage, CookieHandler
+from pages.main_page import MainPage
+from pages.order_page import OrderPage
 
 logging.basicConfig(encoding="utf-8")
 

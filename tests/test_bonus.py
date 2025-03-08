@@ -1,6 +1,6 @@
 import logging.config
 import allure
-from final.pages.bonus_page import BonusPage
+from pages.bonus_page import BonusPage
 
 logging.basicConfig(encoding="utf-8")
 

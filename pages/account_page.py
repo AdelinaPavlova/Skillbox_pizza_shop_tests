@@ -61,10 +61,8 @@ class AccountPage:
         self.remember_user.click()
         self.login_button.click()
         if self.is_error():
-            time.sleep(1)
             self.registration_button.click()
             self.send_data()
             self.submit()
             self.open()
-        time.sleep(2)
         return username

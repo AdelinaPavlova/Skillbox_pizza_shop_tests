@@ -1,7 +1,7 @@
 import logging.config
-from final.pages.main_page import MainPage
+from pages.main_page import MainPage
 import allure
-from final.pages.deserts_page import DesertsPage
+from pages.deserts_page import DesertsPage
 
 logging.basicConfig(encoding="utf-8")
 

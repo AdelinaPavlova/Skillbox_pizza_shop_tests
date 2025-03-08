@@ -1,7 +1,7 @@
 import allure
 import logging.config
-from final.pages.cart_page import CartPage, CookieHandler
-from final.pages.main_page import MainPage
+from pages.cart_page import CartPage, CookieHandler
+from pages.main_page import MainPage
 
 logging.basicConfig(encoding="utf-8")
 

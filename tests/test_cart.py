@@ -1,7 +1,7 @@
 import logging.config
 import time
 import allure
-from final.pages.cart_page import CartPage
+from pages.cart_page import CartPage
 
 logging.basicConfig(encoding="utf-8")
 

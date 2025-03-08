@@ -1,6 +1,6 @@
 import allure
 import logging.config
-from final.pages.main_page import MainPage
+from pages.main_page import MainPage
 
 logging.basicConfig(encoding="utf-8")
 
